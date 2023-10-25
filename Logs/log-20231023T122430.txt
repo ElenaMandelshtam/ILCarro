@@ -1,0 +1,37 @@
+2023-10-23 12:24:34,585 INFO m.WDListener [WDListener.java:21] Start search element by locator --->By.xpath: //*[.=' Logout ']
+2023-10-23 12:24:37,649 INFO m.WDListener [WDListener.java:27] Element with locator --->By.xpath: //*[.=' Logout '] is found
+2023-10-23 12:24:37,649 INFO m.WDListener [WDListener.java:21] Start search element by locator --->By.xpath: //*[.=' Log in ']
+2023-10-23 12:24:37,668 INFO m.WDListener [WDListener.java:27] Element with locator --->By.xpath: //*[.=' Log in '] is found
+2023-10-23 12:24:37,746 INFO m.WDListener [WDListener.java:21] Start search element by locator --->By.id: email
+2023-10-23 12:24:37,762 INFO m.WDListener [WDListener.java:27] Element with locator --->By.id: email is found
+2023-10-23 12:24:37,963 INFO m.WDListener [WDListener.java:21] Start search element by locator --->By.id: password
+2023-10-23 12:24:37,978 INFO m.WDListener [WDListener.java:27] Element with locator --->By.id: password is found
+2023-10-23 12:24:38,132 INFO m.WDListener [WDListener.java:21] Start search element by locator --->By.xpath: //button[@type='submit']
+2023-10-23 12:24:38,149 INFO m.WDListener [WDListener.java:27] Element with locator --->By.xpath: //button[@type='submit'] is found
+2023-10-23 12:24:38,215 INFO m.WDListener [WDListener.java:21] Start search element by locator --->By.xpath: //button[@type='button']
+2023-10-23 12:24:39,521 INFO m.WDListener [WDListener.java:27] Element with locator --->By.xpath: //button[@type='button'] is found
+2023-10-23 12:24:44,582 INFO m.WDListener [WDListener.java:21] Start search element by locator --->By.xpath: //a[.=' Let the car work ']
+2023-10-23 12:24:44,596 INFO m.WDListener [WDListener.java:27] Element with locator --->By.xpath: //a[.=' Let the car work '] is found
+2023-10-23 12:24:44,677 INFO m.WDListener [WDListener.java:21] Start search element by locator --->By.cssSelector: h2
+2023-10-23 12:24:44,689 INFO m.WDListener [WDListener.java:27] Element with locator --->By.cssSelector: h2 is found
+2023-10-23 12:24:44,703 INFO m.WDListener [WDListener.java:21] Start search element by locator --->By.id: pickUpPlac
+2023-10-23 12:24:47,742 INFO m.WDListener [WDListener.java:33] Something went wrong!!!
+2023-10-23 12:24:47,743 INFO m.WDListener [WDListener.java:34] no such element: Unable to locate element: {"method":"css selector","selector":"#pickUpPlac"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elenas-MacBook-Pro.local', ip: 'fe80:0:0:0:11:3fe2:d05f:74b9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/s_/zy5ffsj13lg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c230673fbab93b4f4555f55f9b34bd7d
+*** Element info: {Using=id, value=pickUpPlac}
+2023-10-23 12:24:47,744 INFO m.WDListener [WDListener.java:35] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#pickUpPlac"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elenas-MacBook-Pro.local', ip: 'fe80:0:0:0:11:3fe2:d05f:74b9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/s_/zy5ffsj13lg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c230673fbab93b4f4555f55f9b34bd7d
+*** Element info: {Using=id, value=pickUpPlac}
+2023-10-23 12:24:48,703 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error --->src/test/screenshots/screenshot-1487.png

@@ -1,0 +1,33 @@
+2023-10-24 15:47:14,562 INFO m.ApplicationManager [LoginTests.java:27] LoginPositiveTest
+2023-10-24 15:47:17,113 INFO m.WDListener [WDListener.java:21] Something went wrong!!!
+2023-10-24 15:47:17,114 INFO m.WDListener [WDListener.java:22] Given xpath expression "//*[.=' Logout '])" is invalid: SyntaxError: Document.evaluate: The expression is not a legal expression
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elenas-MacBook-Pro.local', ip: 'fe80:0:0:0:11:3fe2:d05f:74b9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 78784, moz:profile: /var/folders/s_/zy5ffsj13lg..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da8c43d8-4b1b-41ca-b6ee-a2e057d88f60
+*** Element info: {Using=xpath, value=//*[.=' Logout '])}
+2023-10-24 15:47:17,114 INFO m.WDListener [WDListener.java:23] org.openqa.selenium.InvalidSelectorException: Given xpath expression "//*[.=' Logout '])" is invalid: SyntaxError: Document.evaluate: The expression is not a legal expression
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elenas-MacBook-Pro.local', ip: 'fe80:0:0:0:11:3fe2:d05f:74b9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 78784, moz:profile: /var/folders/s_/zy5ffsj13lg..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da8c43d8-4b1b-41ca-b6ee-a2e057d88f60
+*** Element info: {Using=xpath, value=//*[.=' Logout '])}
+2023-10-24 15:47:17,868 INFO m.WDListener [WDListener.java:27] Here is the path to screenshot with error --->src/test/screenshots/screenshot-2837.png
+2023-10-24 15:47:26,125 INFO m.WDListener [WDListener.java:21] Something went wrong!!!
+2023-10-24 15:47:26,125 INFO m.WDListener [WDListener.java:22] (307, 653) is out of bounds of viewport width (1280) and height (638)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elenas-MacBook-Pro.local', ip: 'fe80:0:0:0:11:3fe2:d05f:74b9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 78784, moz:profile: /var/folders/s_/zy5ffsj13lg..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da8c43d8-4b1b-41ca-b6ee-a2e057d88f60
+2023-10-24 15:47:26,126 INFO m.WDListener [WDListener.java:23] org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (307, 653) is out of bounds of viewport width (1280) and height (638)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elenas-MacBook-Pro.local', ip: 'fe80:0:0:0:11:3fe2:d05f:74b9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 78784, moz:profile: /var/folders/s_/zy5ffsj13lg..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da8c43d8-4b1b-41ca-b6ee-a2e057d88f60
+2023-10-24 15:47:26,223 INFO m.WDListener [WDListener.java:27] Here is the path to screenshot with error --->src/test/screenshots/screenshot-2846.png
